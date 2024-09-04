@@ -1,0 +1,25 @@
+POST http://localhost:8000/registration
+Content-Type: application/json
+
+{
+  "clientId": "admin",
+  "clientSecret": "password"
+}
+
+###
+
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+  "clientId": "admin",
+  "clientSecret": "password"
+}
+
+###
+
+GET http://localhost:8000/books
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJib29rc3RvcmUiLCJzdWIiOiJhZG1pbiIsImlzcyI6ImF1dGgtc2VydmljZSIsImV4cCI6MTcyNTQ0NzIyOSwiaWF0IjoxNzI1NDQ2OTI5fQ.Ht92Pb9BkCpbifZlag-KdwFF58itPRqpX2NdLto3Gg0
+
+###

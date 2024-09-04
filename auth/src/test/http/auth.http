@@ -1,0 +1,17 @@
+POST http://localhost:8081/auth
+Content-Type: application/json
+
+{
+  "clientId": "dmitrii",
+  "clientSecret": "dmitriiSecret"
+}
+
+###
+
+POST http://localhost:8081/auth/token
+Content-Type: application/json
+
+{
+  "clientId": "dmitrii",
+  "clientSecret": "dmitriiSecret"
+}

@@ -1,0 +1,14 @@
+GET http://localhost:8080/books
+Accept: application/json
+
+###
+
+GET http://localhost:8080/books/2
+Accept: application/json
+
+###
+
+GET http://localhost:8080/books?author=Bloch
+Accept: application/json
+
+###

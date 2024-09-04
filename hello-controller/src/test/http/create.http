@@ -1,0 +1,32 @@
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "author" : "Joshua Bloch",
+  "title" : "Effective Java",
+  "price" : 54.99
+}
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "author" : "Kathy Sierra",
+  "title" : "Head First Java",
+  "price" : 12.66
+}
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "author" : "Benjamin J. Evans",
+  "title" : "Java in a Nutshell: A Desktop Quick Reference",
+  "price" : 28.14
+}
+
+###

@@ -1,6 +1,6 @@
 GET http://localhost:8080/books
 Accept: application/json
-
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJib29rc3RvcmUiLCJzdWIiOiJkbWl0cmlpIiwiaXNzIjoiYXV0aC1zZXJ2aWNlIiwiZXhwIjoxNzI1NDQ0NTM1LCJpYXQiOjE3MjU0NDQyMzV9.pgxiiENo88X1uxl54o29CW0djfkFOUj2dJ5JrQCp6iE
 ###
 
 GET http://localhost:8080/books/2
@@ -10,5 +10,5 @@ Accept: application/json
 
 GET http://localhost:8080/books?author=Bloch
 Accept: application/json
-
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJib29rc3RvcmUiLCJzdWIiOiJkbWl0cmlpIiwiaXNzIjoiYXV0aC1zZXJ2aWNlIiwiZXhwIjoxNzI1NDQ0NTM1LCJpYXQiOjE3MjU0NDQyMzV9.pgxiiENo88X1uxl54o29CW0djfkFOUj2dJ5JrQCp6iE
 ###
